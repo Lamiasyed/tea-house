@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea house with Daisy</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/7e7c9063e6.js" crossorigin="anonymous"></script>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    
+    .font-manrope{
+        font-family:'Manrope', sans-serif;
+    }
+</style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              
+              <div>
+                <h1 class="text-7xl font-extrabold">Its good <br>tea time at The <br>Tea house</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+           <div>
+            <img src="./img/banner.jfif" class="max-w-sm   " />
+            <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-3 w-60">
+                <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                <div>
+<h3 class="text-2xl">5.00</h3>
+<p>Trust Pilot Ratings</p>
+                </div>
+            </div>
+
+           </div>
+            </div>
+          </div>
+    </header>
+    <main class="container mx-auto">
+<section class="text-center my-24">
+  <h2 class="text-5xl font-extrabold mb-5">Our featured products</h2>
+  <p class="lg:max-w-3xl mb-10 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio id illo, sapiente non consequuntur quidem, rem saepe voluptatem aliquid deleniti ipsum? <br> Vel, consectetur laboriosam?</p>
+<div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+  <div class="card p-6 bg-gradient-to-r from[#F4F4F4] to-[#F4F4F4] shadow-xl">
+    <figure><img src="./img/black.jfif" alt="Shoes" /></figure>
+    <div class="card-body text-center">
+      <h2 class="text-2xl font-extrabold">Black tea</h2>
+      <p>If a dog chews shoes</p>
+      
+      </div>
+    </div>
+  <div class="card p-6 bg-gradient-to-r from[#F4F4F4] to-[#F4F4F4] shadow-xl">
+    <figure><img src="./img/choco.jfif" alt="" /></figure>
+    <div class="card-body text-center">
+      <h2 class="text-2xl font-extrabold">Lemon tea</h2>
+      <p>If a dog chews shoes</p>
+      
+      </div>
+    </div>
+  <div class="card p-6 bg-gradient-to-r from[#F4F4F4] to-[#F4F4F4] shadow-xl">
+    <figure><img src="./img/lemon.jfif" alt="Shoes" /></figure>
+    <div class="card-body text-center">
+      <h2 class="text-2xl font-extrabold">Choco tea</h2>
+      <p>If a dog chews shoes</p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
